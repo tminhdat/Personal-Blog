@@ -1,0 +1,223 @@
+.name1{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-technology-electronic-financial-background-image_5994.jpg");
+    text-align: center;
+    width: 100%;
+    height: 430px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -33.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.name11{
+    padding: 50px;
+    font-size: 100px;
+    color: white;
+}
+.name12{
+    margin-top: -50px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+#name0{
+    background-image: url("http://2.bp.blogspot.com/-55GNd-4ocNY/U4dX78-G4TI/AAAAAAACHqA/-llUQ1DYfi0/s1600/floatie.gif");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 100%;
+    height: 440px;
+    width: 100%;
+    position: absolute;
+}
+.name2{
+    margin-top: 20px;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    margin-left: 5%;
+    background-color: rgba(255, 166, 0, 0.5);
+    /* background-image:url("https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-6/180853604_1956928781137765_4076211881000467309_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=1FWWtPzSCCoAX8_3ktY&_nc_ht=scontent.fsgn5-4.fna&oh=50f848a19786e3d9c28b6d5f27280ced&oe=61A0A34D") ; */
+}
+
+.name21{
+    text-align: center;
+    background-color: rgba(255, 166, 0,0);
+}
+
+.name211{
+    margin-left: 10px;
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0);
+}
+.name212{
+    margin-left: 10px;
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0);
+    margin-top: -10px;
+    position: absolute;
+}
+
+.name3{
+    margin-top: 20px;
+    margin-left: 30%;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(255, 255, 0, 0.5);
+    text-align: center;
+}
+
+.name31{
+    height: 100%/3;
+    width: 200px;
+    position: absolute;
+}
+
+.name311{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.name312{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 170px;
+    position: absolute;
+}
+.name313{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 290px;
+    position: absolute;
+}
+
+.name4{
+    margin-left:  55%;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(153, 205, 50, 0.5);
+    margin-top: 20px;
+    
+}
+
+.name41{    
+    height: 100%/3;
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
+.name411{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -10px;
+    position: absolute;
+
+}
+
+.name412{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.name413{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 190px;
+    position: absolute;
+}
+
+.name6{
+    margin-left:  80%;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.name611{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.name612{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.name613{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.name614{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 110px;
+    position: absolute;
+}
+
+.name615{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 180px;
+    position: absolute;
+}
+
+.name5{
+    margin-top: 440px;
+    margin-left: -10px;
+    background-image: url("https://1.bigdata-vn.com/wp-content/uploads/2021/10/1633896518_529_Anh-bia-hacker-dep-chat-cuc-ngau-loi-va-ca.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 100%;
+    height: 150px;
+    width: 100%;
+}
+
+.name51{
+    text-align: center;
+    color: white;
+    /* position: relative; */
+}
+
+.name511{
+    padding-top: 20px;
+    margin-left: -85%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.name512{
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: center;
+    color: white;
+}
+
+.name513{
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 66.66%;
+    text-align: center;
+    color: white;
+}
+.name5131{
+    color: white;
+}
