@@ -1,231 +1,377 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-#heading{
-    position: fixed;
+#taskbar{
+    position: relative;
     width: 100%;
     height: 50px;
-    background-color: rgb(175, 175, 248);
-}
-
-.name{
+    background-color: rgba(97, 97, 252);
     display: inline-block;
 }
 
-.name2{
-    text-decoration: none;
+.taskbarr{
+    display: inline-block;
 }
 
-.name1{
-    padding-left: 50px;
-    padding-right: 50px;
+.taskbar1{
+    padding-left: 40px;
+    padding-right: 40px;
     display: inline-block;
     line-height: 50px;
     font-size: 20px;
     color: black;
 }
 
-.name1:hover{
-    background-color: rgb(112, 112, 253);
+.taskbar1:hover{
+    background-color: rgb(49, 49, 247);
 }
 
-#head{
-    background-size: 100% 100%;
+.taskbar2{
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+
+
+#header{
+    margin-top: -5px;
+    width: 100%;
+    height: 520px;
+    background-image: url("./img/hình_heading.jpg");
     background-repeat: no-repeat;
-    padding-top: 50px;
+    background-size: 100% 100%;
+}
+
+.heading{
+    font-size: 42pt;
     text-align: center;
+    line-height: 520px;
+    color: #fff;
+    font-style: uppercase;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+#soluoc{
+    background-color: gray;
+    font-size: 30pt;
+    height: 66px;
     width: 100%;
-    height: 430px;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-technology-electronic-financial-background-image_5994.jpg");
+    text-align: center;
+    line-height: 66px;
 }
 
-.head1{
-    line-height: 200px;
-    text-decoration: none;
-    color: white;
-}
-
-.head11{
-    font-size: 100px;
-}
-
-.head12{
-    font-size: 50px;
-}
-
-#than{
+#content1{
+    width: 100%;
+    height: 385px;
+    background-image: url("./img/content11.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
     position: relative;
-    padding-top: 10px;
-    background-image: url("http://2.bp.blogspot.com/-55GNd-4ocNY/U4dX78-G4TI/AAAAAAACHqA/-llUQ1DYfi0/s1600/floatie.gif");
+}
+
+#content11{
+    background-image: url("./img/dat.jpg");
+    width: 465px;
+    height: 335px;
+    background-size: 100% 100%;
+    margin-top: 25px;
+    margin-left: 200px;
+    display: inline-block;
+    position: absolute;
+}
+
+#content12{
+    width: 100% - 465px;
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.content121{
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.content122{
+    font-size: 28pt;
+    text-decoration: none;
+    color: #fff;
+}
+
+#content2{
+    margin-top: -5px;
+    background-color: gray;
+    font-size: 30pt;
+    height: 66px;
     width: 100%;
-    height: 440px;
+    text-align: center;
+    line-height: 66px;
 }
 
-#content0{
+#content22{
+    background-image: url("./img/sở_thích_back_ground.jpg");
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+}
+
+#content221{
+    margin-top: 22.8px;
+    margin-left: 200px;
+    background-image: url("./img/tai nghe.jpg");
+    width: 275px;
+    height: 275px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     position: absolute;
-    margin-left: 5%;
-    margin-top: 10px;
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 0, 0, 0.5);
 }
 
-.content1{
-    margin-top: 20px;
-    list-style: none;
-    margin-left: 10px;
-    margin-right: 10px;
+.content2211{
+    font-size: 30px;
+    margin-left: 270px;
+    margin-top: 322.8px;
+    color: wheat;
+    position: absolute;
 }
 
-.content11{
+#content222{
+    margin-top: 22.8px;
+    margin-left: 600px;
+    background-image: url("./img/bóng.jpg");
+    width: 275px;
+    height: 275px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.content2221{
+    margin-left: 652px;
+    font-size: 30px;
+    margin-top: 322.8px;
+    color: wheat;
+    position: absolute;
+}
+
+#content223{
+    margin-top: 22.8px;
+    margin-left: 1000px;
+    background-image: url("./img/tìm tòi.jpg");
+    width: 275px;
+    height: 275px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.content2231{
+    margin-left: 972px;
+    font-size: 30px;
+    margin-top: 322.8px;
+    color: wheat;
+    position: absolute;
+}
+
+#content3{
+    margin-top: -5px;
+    background-color: gray;
+    font-size: 30pt;
+    height: 66px;
+    width: 100%;
+    text-align: center;
+    line-height: 66px;
+}
+
+#content33{
+    background-image: url("./img/điểm_mạnh_bg.jpg");
+    width: 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+}
+
+#content331{
+    height: 275px;
+    width: 275px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.content3311{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
     text-align: center;
 }
 
-.content21{
+.content3312{
+    margin-top: 10px
+}
+
+#content332{
+    height: 275px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.content3321{
+    font-size: 25px;
     text-decoration: none;
-    color: black;
-}
-
-.content22{
-    font-size: 20px;
-}
-
-.content23{
-    font-size: 35px;
-}
-
-#content00{
-    position: absolute;
-    margin-left: 30%;
-    margin-top: 10px;
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 255, 0, 0.5);
-}
-
-.content3{
-    margin-top: 20px;
-    list-style: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.content31{
+    color: #fff;
     text-align: center;
 }
 
-.content321{
+.content3322{
+    margin-top: 10px
+}
+
+#content333{
+    height: 275px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.content3331{
+    font-size: 25px;
     text-decoration: none;
-    color: black;
-}
-
-.content322{
-    font-size: 20px;
-}
-
-.content323{
-    font-size: 35px;
-}
-
-#content000{
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 10px;
-    width: 200px;
-    height: 400px;
-    background-color: rgba(255, 255, 0, 0.5);
-}
-
-.content4{
-    margin-top: 20px;
-    list-style: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.content41{
+    color: #fff;
     text-align: center;
 }
 
-.content421{
-    text-decoration: none;
-    color: black;
+.content3332{
+    margin-top: 10px
 }
 
-.content422{
-    font-size: 20px;
-}
-
-.content423{
-    font-size: 35px;
-}
-
-#content0000{
-    position: absolute;
-    margin-left: 80%;
-    margin-top: 10px;
-    width: 200px;
-    height: 400px;
-    background-color: rgba(153, 205, 50, 0.5);
-}
-
-.content5{
-    margin-top: 20px;
-    list-style: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.content51{
+#content4{
+    margin-top: -5px;
+    background-color: gray;
+    font-size: 30pt;
+    height: 66px;
+    width: 100%;
     text-align: center;
+    line-height: 66px;
 }
 
-.content521{
+#content41{
+    background-image: url("./img/thành_tựu_background.jpg");
+    width: 100%;
+    height: 345px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.content4411{
+    margin-top: 35px;
+    margin-left: 200px;
+    width: 400px;
+    height: 275px;
+    position: absolute;
+}
+
+#content442{
+    margin-top:35px;
+    margin-left: 650px;
+}
+
+.content4421{
+    margin-top: 20px;
+}
+
+.content4422{
+    font-size: 30pt;
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
-.content522{
-    font-size: 20px;
+#content5{
+    margin-top: -5px;
+    background-color: gray;
+    font-size: 30pt;
+    height: 66px;
+    width: 100%;
+    text-align: center;
+    line-height: 66px;
 }
 
-.content523{
-    font-size: 35px;
+#content51{
+    background-image: url("./img/muctieubg.jpg");
+    width: 100%;
+    height: 345px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+}
+
+#content551{
+    margin-left: 200px;
+    margin-top: 40px;
+    position: absolute;
+    width: 50%;
+}
+
+
+
+.content5512{
+    text-decoration: none;
+    font-size: 30pt;
+    color: #fff;
+}
+
+#content552{
+    position: absolute;
+    margin-left: 1000px; 
+    margin-top: 35px;
+}
+
+.content5521{
+    width: 400px;
+    height: 275px;  
 }
 
 #footer{
-    background-image: url("https://1.bigdata-vn.com/wp-content/uploads/2021/10/1633896518_529_Anh-bia-hacker-dep-chat-cuc-ngau-loi-va-ca.jpg");
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-size: 100% 100%;
-    height: 150px;
     width: 100%;
-}
-
-.text00{
-    margin-top: 20px;
+    height: 155px;
+    background-color: gray;
+    margin-top: -5px;
     display: inline-block;
-    padding-left: 10%;
+    position: relative;
 }
 
-.text1{
-    margin-top: 20px;
+.footer1{
+    margin-left: 35%;
     text-align: center;
-    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    font-size: 30pt;
 }
 
-.text11{
-    text-decoration: none;
-    color: white;
+.footer2{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 20pt;
 }
 
-.text111{
-    font-size: 20px;
-    text-align: center;
+.footer21{
+    margin-left: 10%;
 }
 
-
-
-
+.footer22{
+    margin-left: 60%;
+}
